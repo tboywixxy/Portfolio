@@ -4,80 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anthony Obode — Portfolio</title>
+    <title>Anthony Obode - Software Engineer</title>
+    <meta
+      name="description"
+      content="Anthony Obode is a software engineer focused on building polished frontend experiences, mobile applications, and production-ready digital products."
+    />
 
-    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!-- ===== SVG SPRITES (icons auto-inherit color) ===== -->
     <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden;">
-      <!-- Social -->
       <symbol id="icon-github" viewBox="0 0 24 24">
-        <path fill="currentColor"
-          d="M12 .5A12 12 0 0 0 0 12.7c0 5.4 3.4 10 8.1 11.6.6.1.8-.3.8-.6v-2c-3.3.8-4-1.4-4-1.4-.6-1.5-1.3-2-1.3-2-1-.7.1-.7.1-.7 1.2.1 1.8 1.3 1.8 1.3 1 1.8 2.7 1.3 3.3 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.4-5.4-6.1 0-1.4.5-2.5 1.3-3.4-.1-.3-.6-1.7.1-3.6 0 0 1-.3 3.5 1.3a12 12 0 0 1 6.3 0C17.8 3.9 18.8 4.2 18.8 4.2c.7 1.9.2 3.3.1 3.6.8.9 1.3 2 1.3 3.4 0 4.7-2.8 5.7-5.4 6.1.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6A12.2 12.2 0 0 0 24 12.7 12 12 0 0 0 12 .5Z"/>
+        <path fill="currentColor" d="M12 .5A12 12 0 0 0 0 12.7c0 5.4 3.4 10 8.1 11.6.6.1.8-.3.8-.6v-2c-3.3.8-4-1.4-4-1.4-.6-1.5-1.3-2-1.3-2-1-.7.1-.7.1-.7 1.2.1 1.8 1.3 1.8 1.3 1 1.8 2.7 1.3 3.3 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.4-5.4-6.1 0-1.4.5-2.5 1.3-3.4-.1-.3-.6-1.7.1-3.6 0 0 1-.3 3.5 1.3a12 12 0 0 1 6.3 0c2.5-1.6 3.5-1.3 3.5-1.3.7 1.9.2 3.3.1 3.6.8.9 1.3 2 1.3 3.4 0 4.7-2.8 5.7-5.4 6.1.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6A12.2 12.2 0 0 0 24 12.7 12 12 0 0 0 12 .5Z" />
       </symbol>
+
       <symbol id="icon-linkedin" viewBox="0 0 24 24">
-        <path fill="currentColor"
-          d="M20.45 20.45h-3.56v-5.61c0-1.34 0-3.07-1.87-3.07-1.88 0-2.17 1.47-2.17 2.98v5.7H9.29V9.75h3.41v1.46h.05c.47-.9 1.62-1.85 3.34-1.85 3.58 0 4.25 2.36 4.25 5.44v5.65zM5.33 8.29a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.11 20.45H3.55V9.75h3.56v10.7z"/>
+        <path fill="currentColor" d="M20.45 20.45h-3.56v-5.61c0-1.34 0-3.07-1.87-3.07-1.88 0-2.17 1.47-2.17 2.98v5.7H9.29V9.75h3.41v1.46h.05c.47-.9 1.62-1.85 3.34-1.85 3.58 0 4.25 2.36 4.25 5.44v5.65zM5.33 8.29a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.11 20.45H3.55V9.75h3.56v10.7z" />
       </symbol>
 
-      <symbol id="icon-telephone" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.3 21 3 13.7 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/>
-      </symbol>
-
-
-      <!-- Sun / Moon -->
-      <symbol id="icon-sun" viewBox="0 0 24 24">
-        <path fill="currentColor"
-          d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zM1 13h3v-2H1v2zm10 10h2v-3h-2v3zm9.83-3.16l-1.79-1.79-1.8 1.79 1.8 1.79 1.79-1.79zM20 11v2h3v-2h-3zM11 1v3h2V1h-2zM6.76 19.16l-1.8 1.79 1.41 1.41 1.79-1.79-1.4-1.41zM17.24 4.84l1.8-1.79-1.41-1.41-1.79 1.79 1.4 1.41zM12 6a6 6 0 100 12 6 6 0 000-12z"/>
-      </symbol>
-      <symbol id="icon-moon" viewBox="0 0 24 24">
-        <path fill="currentColor"
-          d="M21.75 14.5A9.75 9.75 0 1110.2 2.27a8 8 0 1011.55 12.23z"/>
-      </symbol>
-
-      <!-- Email -->
       <symbol id="icon-email" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/>
+        <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z" />
       </symbol>
 
-      <!-- Education -->
-      <symbol id="icon-education" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3Zm0 14L4.5 13.1V16L12 20l7.5-4v-2.9L12 17Z"/>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.2 2.2z" />
       </symbol>
 
-      <!-- Tech stack (your simplified icons) -->
-      <symbol id="icon-html" viewBox="0 0 24 24"><path fill="currentColor" d="M3 2l1.8 20L12 22l7.2 0L21 2H3zm14.2 6.5H8.6l.2 2h8.1l-.5 6L12 17.9l-4.4-1.4-.3-3h2.1l.1 1.6 2.5.7 2.5-.7.2-2.7H7.1l-.5-6h10.8l-.2 2.5z"/></symbol>
-      <symbol id="icon-css" viewBox="0 0 24 24"><path fill="currentColor" d="M3 2l1.8 20L12 22l7.2 0L21 2H3zm13 6H8.5l.2 2H16l-.3 3.5-3.7 1-3.7-1-.1-1.7H6.5l.2 3.1L12 17.7l5.3-1.8.7-8.9z"/></symbol>
-      <symbol id="icon-js" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v18H3V3zm9.8 12.7c0 1.9-1.1 2.8-2.7 2.8-1.4 0-2.2-.7-2.6-1.6l1.5-.9c.3.5.6.9 1.1.9.5 0 .8-.2.8-1V10h1.9v5.7zm2.1 2.8c-1.2 0-2.1-.6-2.6-1.5l1.5-.9c.4.6.9.8 1.5.8.6 0 1-.3 1-.7 0-.5-.4-.6-1.1-.9l-.4-.2c-1.1-.5-1.9-1.1-1.9-2.5 0-1.2.9-2.1 2.3-2.1 1 0 1.8.3 2.3 1.3l-1.4.9c-.3-.6-.7-.8-1-.8-.5 0-.8.3-.8.6 0 .4.3.6 1 .9l.4.2c1.3.6 2.1 1.2 2.1 2.6 0 1.4-1.1 2.3-2.9 2.3z"/></symbol>
-      <symbol id="icon-ts" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v18H3V3zm9.7 7.3H8.8v1.6h1.6v6h1.8v-6h1.6v-1.6zm2.3 7.8c.4.3.9.5 1.6.5 1 0 1.7-.5 1.7-1.4 0-.7-.4-1.1-1.3-1.5l-.6-.3c-.5-.2-.7-.4-.7-.7s.2-.6.7-.6c.4 0 .7.1 1 .4l.9-1.2c-.5-.4-1.2-.6-2-.6-1.7 0-2.7 1-2.7 2.2 0 .9.5 1.5 1.6 2l.6.3c.5.2.7.4.7.8 0 .3-.3.6-.9.6-.5 0-1-.2-1.3-.5l-.9 1.2z"/></symbol>
-      <symbol id="icon-node" viewBox="0 0 24 24"><path fill="currentColor" d="M11.1 1.6L2.4 6.6v10.8l8.7 5 8.7-5V6.6l-8.7-5zm7 15l-7 4-7-4V7.4l7-4 7 4V16.6z"/></symbol>
-      <symbol id="icon-git" viewBox="0 0 24 24"><path fill="currentColor" d="M2.7 12L12 2.7l2.1 2.1-1.8 1.8 2.3 2.3 1.8-1.8 2.1 2.1L12 21.3 2.7 12z"/></symbol>
-      <symbol id="icon-supabase" viewBox="0 0 24 24"><path fill="currentColor" d="M4 3l9.5 13.5H9.8L20 3h-5.8L4 21V3z"/></symbol>
-      <symbol id="icon-firebase" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20l2-14 4 4 2-6 6 16-7 3-7-3z"/></symbol>
-      <symbol id="icon-java" viewBox="0 0 24 24"><path fill="currentColor" d="M8 19c1.4.9 7.7.9 8.8-.4.8-.8-.3-1.2-.3-1.2s.2.2-.4.6c-1.7 1.1-6.1 1-7.4.3-.6-.3-.8.1-.7.7z"/></symbol>
-      <symbol id="icon-react" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6"
-        d="M12 12.5a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm0 4.8c3.9 0 7-2.1 7-4.8s-3.1-4.8-7-4.8-7 2.1-7 4.8 3.1 4.8 7 4.8z"/></symbol>
-      <symbol id="icon-next" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1010 10A10 10 0 0012 2Zm4.2 14.6L9.6 8.1h1.8l4.8 7v1.5zM13.7 8.1h1.6v7.8h-1.6z"/></symbol>
-      <symbol id="icon-aws" viewBox="0 0 24 24"><path fill="currentColor" d="M4 16l8-10 8 10-8 4-8-4z"/></symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zM1 13h3v-2H1v2zm10 10h2v-3h-2v3zm9.83-3.16l-1.79-1.79-1.8 1.79 1.8 1.79 1.79-1.79zM20 11v2h3v-2h-3zM11 1v3h2V1h-2zM6.76 19.16l-1.8 1.79 1.41 1.41 1.79-1.79-1.4-1.41zM17.24 4.84l1.8-1.79-1.41-1.41-1.79 1.79 1.4 1.41zM12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12z" />
+      </symbol>
+
+      <symbol id="icon-moon" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M21.75 14.5A9.75 9.75 0 1 1 10.2 2.27a8 8 0 1 0 11.55 12.23z" />
+      </symbol>
+
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M14 3h7v7h-2V6.41l-9.3 9.3-1.4-1.42 9.28-9.29H14V3ZM5 5h6v2H7v10h10v-4h2v6H5V5Z" />
+      </symbol>
+
+      <symbol id="icon-apple" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M16.9 12.3c0-2.1 1.7-3.1 1.8-3.2-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.7-.8-2.8-.8-1.5 0-2.9.9-3.6 2.2-1.5 2.5-.4 6.3 1.1 8.4.7 1 1.6 2.1 2.7 2 .9 0 1.3-.6 2.5-.6 1.1 0 1.5.6 2.5.6 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.5 1.1-2.6-.1 0-2.1-.8-2.1-3.1ZM14.6 5.8c.6-.7 1-1.7.9-2.8-.9 0-2 .6-2.7 1.3-.6.7-1.1 1.7-.9 2.8 1 0 2-.5 2.7-1.3Z" />
+      </symbol>
+
+      <symbol id="icon-samsung" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Zm4.1 4.1c0-.9.7-1.6 1.7-1.6h4.4c.9 0 1.7.7 1.7 1.6 0 .6-.3 1.1-.9 1.4.7.3 1.1.9 1.1 1.7 0 1.1-.9 1.9-2 1.9H9.6V10.6h4c.2 0 .3-.1.3-.3S13.8 10 13.6 10h-3.8v.6Zm1.5 3.8h4.2c.2 0 .4-.2.4-.4s-.2-.4-.4-.4H9.6v.8Z" />
+      </symbol>
+
+      <symbol id="icon-android" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M7.1 8.2h9.8c.6 0 1.1.5 1.1 1.1v6.4c0 .6-.5 1.1-1.1 1.1h-.7v2c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-2h-1.5v2c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-2H9.6v2c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-2h-.7c-.6 0-1.1-.5-1.1-1.1V9.3c0-.6.5-1.1 1.1-1.1Zm2-3.3.9 1.6h4l.9-1.6c.1-.2.4-.3.6-.2.2.1.3.4.2.6l-.8 1.4c1.4.6 2.4 2 2.4 3.6H6.7c0-1.6 1-3 2.4-3.6l-.8-1.4c-.1-.2 0-.5.2-.6.2-.1.5 0 .6.2Zm1.9 2.4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm3 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z" />
+      </symbol>
+
+      <symbol id="icon-doc" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M7 2h7l5 5v13a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm6 1.5V8h4.5L13 3.5ZM9 12h6v1.5H9V12Zm0 3h6v1.5H9V15Zm0-6h3v1.5H9V9Z" />
+      </symbol>
     </svg>
 
-    <!-- ===== NAV ===== -->
-    <nav id="desktop-nav" class="glass">
+    <nav id="desktop-nav" class="site-nav glass">
       <div class="nav-inner">
         <a class="logo" href="#profile">Anthony Obode</a>
 
         <ul class="nav-links">
-          <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#experience">Experience</a></li>
           <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
 
@@ -87,7 +85,7 @@
               <use href="#icon-moon"></use>
             </svg>
           </button>
-          <a class="btn btn-primary" href="#contact">Hire Me</a>
+          <a class="btn btn-primary" href="#contact">Contact Me</a>
         </div>
 
         <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" type="button">
@@ -95,240 +93,413 @@
         </button>
       </div>
 
-      <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-labelledby="menu-title">
+      <div class="mobile-menu" id="mobile-menu">
         <ul class="mobile-links">
-          <li><a href="#about" class="mobile-link">About</a></li>
           <li><a href="#experience" class="mobile-link">Experience</a></li>
           <li><a href="#projects" class="mobile-link">Projects</a></li>
+          <li><a href="#skills" class="mobile-link">Skills</a></li>
+          <li><a href="#about" class="mobile-link">About</a></li>
           <li><a href="#contact" class="mobile-link">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- ===== HERO ===== -->
     <header id="profile" class="section hero">
-      <div class="hero-grid container">
-        <div class="hero-media reveal" style="--d:0s">
-          <div class="avatar-wrap">
-            <img src="./assets/tboi.jpg" alt="Anthony Obode profile picture" class="avatar" />
-            <div class="ring ring-1"></div>
-            <div class="ring ring-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal" style="--d:0s">
+          <p class="kicker">Software Engineer</p>
+          <h1 class="title xl">Frontend and Mobile Developer</h1>
+          <p class="subtitle">Based in Lagos, Nigeria.</p>
+
+          <div class="hero-strip">
+            <span>React and Next.js</span>
+            <span>React Native and Flutter</span>
+            <span>Product-minded execution</span>
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View Work</a>
+            <a class="btn btn-accent" href="https://docs.google.com/document/d/1dfdd7oY0qFEG48mPxQP7RcW5l7yQJb2m/edit?usp=sharing&amp;ouid=112819742421684813124&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">
+              <svg width="18" height="18" aria-hidden="true"><use href="#icon-doc"></use></svg>
+              View Resume
+            </a>
+            <a class="btn btn-outline" href="#contact">Contact Info</a>
+          </div>
+
+          <div class="socials" aria-label="Social links">
+            <a class="icon-btn" aria-label="LinkedIn" href="https://www.linkedin.com/in/anthony-obode-6098591aa/" target="_blank" rel="noopener">
+              <svg width="20" height="20" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+            </a>
+            <a class="icon-btn" aria-label="GitHub" href="https://github.com/tboywixxy" target="_blank" rel="noopener">
+              <svg width="20" height="20" aria-hidden="true"><use href="#icon-github"></use></svg>
+            </a>
           </div>
         </div>
 
-        <div class="hero-copy reveal" style="--d:.1s">
-          <p class="kicker">Hello, I’m</p>
-          <h1 class="title xl">Anthony Obode</h1>
-          <p class="subtitle">Full-Stack Developer</p>
-
-          <p class="lede">
-            I’m a full-stack developer, currently focused on frontend engineering. I build accessible, responsive UIs
-            with React, Next.js, and React Native and take them through performance tuning and deployments.
-            I’m comfortable owning features end-to-end and thrive in close collaboration with designers and backend teams.
-          </p>
-
-          <div class="hero-cta">
-            <a class="btn btn-outline"
-               href="https://docs.google.com/document/d/1Ki7JAQjTAV5YN6R7eBzsI2tzd1EBbyf8AOx3M3Bjdlo/edit?usp=sharing"
-               target="_blank" rel="noopener">View Resume</a>
-            <a class="btn btn-primary" href="#contact">Contact Info</a>
+        <div class="hero-panel glass reveal" style="--d:.08s">
+          <p class="panel-kicker">What I bring</p>
+          <div class="hero-panel-top">
+            <span>Available for frontend, mobile, and product-focused roles</span>
           </div>
 
-          <div class="socials">
-            <a class="icon-btn" aria-label="LinkedIn"
-               href="https://www.linkedin.com/in/anthony-obode-6098591aa/"
-               target="_blank" rel="noopener">
-              <svg width="20" height="20" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
-            </a>
-            <a class="icon-btn" aria-label="GitHub"
-               href="https://github.com/tboywixxy" target="_blank" rel="noopener">
-              <svg width="20" height="20" aria-hidden="true"><use href="#icon-github"></use></svg>
-            </a>
+          <div class="hero-stats">
+            <article>
+              <strong>3+ yrs</strong>
+              <span>software experience</span>
+            </article>
+            <article>
+              <strong>Live apps</strong>
+              <span>web and mobile products</span>
+            </article>
+            <article>
+              <strong>End-to-end</strong>
+              <span>features, testing, deployment</span>
+            </article>
+          </div>
+
+          <div class="hero-focus">
+            <span>Responsive UI</span>
+            <span>Mobile apps</span>
+            <span>Dashboards</span>
+            <span>API integrations</span>
+            <span>Authentication</span>
+            <span>Deployment</span>
           </div>
         </div>
       </div>
       <div class="bg-gradient"></div>
     </header>
 
-    <!-- ===== ABOUT ===== -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section-head reveal" style="--d:0s">
-          <p class="kicker">Get to know more</p>
-          <h2 class="title lg">About Me</h2>
-        </div>
-
-        <div class="about-grid">
-          <div class="about-media reveal" style="--d:.05s">
-            <img src="./assets/Tboi5.jpg" class="about-pic" alt="Anthony portrait" />
-          </div>
-
-          <div class="about-cards reveal" style="--d:.1s">
-            <div class="info-card glass">
-              <svg class="icon-24" aria-hidden="true"><use href="#icon-aws"></use></svg>
-              <div>
-                <h3>Experience</h3>
-                <p>2+ years<br/>Full-Stack Development</p>
-              </div>
-            </div>
-
-            <div class="info-card glass">
-              <svg class="icon-24" aria-hidden="true"><use href="#icon-education"></use></svg>
-              <div>
-                <h3>Education</h3>
-                <p>B.Eng. Computer Engineering<br/>University of Benin</p>
-              </div>
-            </div>
-          </div>
-
-          <p class="about-text reveal" style="--d:.15s">
-            I care about clean architecture, UX, and accessibility. I love pairing with designers to ship delightful
-            interfaces, and I’m comfortable integrating REST/GraphQL, auth, payments, and CI/CD to production.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== EXPERIENCE ===== -->
     <section id="experience" class="section alt">
       <div class="container">
         <div class="section-head reveal" style="--d:0s">
-          <p class="kicker">Explore my</p>
+          <p class="kicker">Professional work</p>
           <h2 class="title lg">Experience</h2>
+          <p class="section-intro">Products and platforms I have worked on.</p>
         </div>
 
-        <div class="skills-grid">
-          <div class="skill-card glass reveal" style="--d:.05s">
-            <h3 class="skill-title">Frontend / Core</h3>
-            <ul class="skill-list">
-              <li><span><svg class="stack-ic"><use href="#icon-html"></use></svg> HTML</span><em>Experienced</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-css"></use></svg> CSS</span><em>Experienced</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-js"></use></svg> JavaScript</span><em>Experienced</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-ts"></use></svg> TypeScript</span><em>Experienced</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-react"></use></svg> React</span><em>Experienced</em></li>
+        <div class="experience-list">
+          <article class="experience-card glass reveal" style="--d:.04s">
+            <div class="experience-head">
+              <div>
+                <h3>Okiri Mobile</h3>
+                <p>Mobile Frontend Developer</p>
+              </div>
+              <span>Aug 2024 - Feb 2026</span>
+            </div>
+            <ul>
+              <li>Served as the sole frontend developer, building and maintaining a cross-platform mobile app from development to public release.</li>
+              <li>Built core mobile screens, user flows, and responsive interfaces for a smooth experience across devices.</li>
+              <li>Implemented real-time audio and video calling features, including call states, mute and speaker controls, timers, and background call behavior.</li>
+              <li>Improved call reliability with native call flows, Picture-in-Picture support, Android-native call screens, and high-priority Firebase notifications.</li>
+              <li>Developed the product's public-facing marketing website and supported release readiness across Palm Store, Samsung Galaxy Store, App Store, and APKPure.</li>
             </ul>
-          </div>
+            <div class="experience-links">
+              <a href="https://okirimobile.com" target="_blank" rel="noopener">Website <svg><use href="#icon-arrow"></use></svg></a>
+              <a href="https://apps.apple.com/ng/app/okiri-mobile/id6760467395" target="_blank" rel="noopener">App Store <svg><use href="#icon-arrow"></use></svg></a>
+              <a href="https://galaxystore.samsung.com/detail/com.okirimobile.app" target="_blank" rel="noopener">Galaxy Store <svg><use href="#icon-arrow"></use></svg></a>
+            </div>
+          </article>
 
-          <div class="skill-card glass reveal" style="--d:.1s">
-            <h3 class="skill-title">Tools / Backend</h3>
-            <ul class="skill-list">
-              <li><span><svg class="stack-ic"><use href="#icon-next"></use></svg> Next.js</span><em>Experienced</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-node"></use></svg> Node.js</span><em>Basic</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-git"></use></svg> Git</span><em>Intermediate</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-supabase"></use></svg> Supabase</span><em>Intermediate</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-firebase"></use></svg> Firebase</span><em>Experienced</em></li>
-              <li><span><svg class="stack-ic"><use href="#icon-java"></use></svg> Java</span><em>Intermediate</em></li>
+          <article class="experience-card glass reveal" style="--d:.08s">
+            <div class="experience-head">
+              <div>
+                <h3>Mastaskillz</h3>
+                <p>Frontend Developer</p>
+              </div>
+              <span>Dec 2025 - Feb 2026</span>
+            </div>
+            <ul>
+              <li>Led frontend development for the web platform, building core user-facing and admin features from requirements to production-ready interfaces.</li>
+              <li>Developed responsive pages and reusable UI components across the platform for a clean and consistent user experience.</li>
+              <li>Built and improved authentication flows, including login, signup, Google authentication, and onboarding screens.</li>
+              <li>Worked on job-related features including job listings, search, pagination, API integration, and detailed job views.</li>
+              <li>Built admin dashboard features to help track users, platform activity, and key operational data.</li>
             </ul>
-          </div>
+            <div class="experience-links">
+              <a href="https://mastaskillz.com/" target="_blank" rel="noopener">Website <svg><use href="#icon-arrow"></use></svg></a>
+            </div>
+          </article>
+
+          <article class="experience-card glass reveal" style="--d:.12s">
+            <div class="experience-head">
+              <div>
+                <h3>The Guardians' Keeper</h3>
+                <p>Full-Stack Developer, Contract</p>
+              </div>
+              <span>Mar 2026</span>
+            </div>
+            <ul>
+              <li>Built and deployed a full-stack NGO website to showcase the organization's mission, programs, and impact.</li>
+              <li>Developed key pages, support flows, a contact form with automated confirmation emails, and a media and resources section.</li>
+              <li>Integrated photos, audio, videos, and downloadable reports to improve engagement and information access.</li>
+              <li>Managed deployment, testing, and production updates to ensure the site was stable and launch-ready.</li>
+            </ul>
+            <div class="experience-links">
+              <a href="https://theguardianskeeper.com/" target="_blank" rel="noopener">Website <svg><use href="#icon-arrow"></use></svg></a>
+            </div>
+          </article>
+
+          <article class="experience-card glass reveal" style="--d:.16s">
+            <div class="experience-head">
+              <div>
+                <h3>Yorkshire Global Consulting Inc.</h3>
+                <p>Full-Stack Developer, Contract</p>
+              </div>
+              <span>Dec 2025 - Jan 2026</span>
+            </div>
+            <ul>
+              <li>Built and deployed a multilingual corporate website to present the company's services, industries, case studies, and contact channels.</li>
+              <li>Developed a clean, responsive user interface with consistent page structure across desktop and mobile.</li>
+              <li>Implemented multilingual routing and content organization for a wider audience.</li>
+              <li>Built a contact form with automated email delivery to improve lead capture and client communication.</li>
+              <li>Improved SEO basics, metadata, performance, testing, and deployment readiness before launch.</li>
+            </ul>
+            <div class="experience-links">
+              <a href="https://yorkshireglobal.ca/" target="_blank" rel="noopener">Website <svg><use href="#icon-arrow"></use></svg></a>
+            </div>
+          </article>
+
+          <article class="experience-card glass reveal" style="--d:.20s">
+            <div class="experience-head">
+              <div>
+                <h3>AI Model Training and Data Annotation</h3>
+                <p>Freelance / Contract</p>
+              </div>
+              <span>Oct 2022 - Dec 2023</span>
+            </div>
+            <ul>
+              <li>Supported AI model training and data annotation projects for chatbot, automation, NLP, and image recognition use cases.</li>
+              <li>Labeled and reviewed datasets to improve model accuracy and output quality.</li>
+              <li>Evaluated AI model responses for document processing, form parsing, and content moderation tasks.</li>
+              <li>Worked with technical teams to test outputs, identify errors, and improve model performance.</li>
+            </ul>
+          </article>
+
+          <article class="experience-card glass reveal" style="--d:.24s">
+            <div class="experience-head">
+              <div>
+                <h3>Jamub Group of Companies</h3>
+                <p>Student Intern</p>
+              </div>
+              <span>Jan 2022 - Oct 2022</span>
+            </div>
+            <ul>
+              <li>Collaborated with a team to design and develop the company website, delivering a visually appealing and user-friendly platform.</li>
+              <li>Improved site navigation and accessibility to ensure smooth functionality across devices.</li>
+              <li>Supported stable network infrastructure and general website maintenance.</li>
+            </ul>
+            <div class="experience-links">
+              <a href="https://jamubgroup.com/" target="_blank" rel="noopener">Website <svg><use href="#icon-arrow"></use></svg></a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== PROJECTS (MASTER-DETAIL) ===== -->
     <section id="projects" class="section">
       <div class="container">
         <div class="section-head reveal" style="--d:0s">
-          <p class="kicker">Browse my recent</p>
+          <p class="kicker">Selected work</p>
           <h2 class="title lg">Projects</h2>
+          <p class="section-intro">A few selected projects.</p>
         </div>
 
-        <div class="projects-split glass reveal" style="--d:.05s">
-          <!-- Left: Project list -->
-          <aside class="project-list" aria-label="Project list">
-            <button class="project-item active" type="button" data-project="okiri">
-              <span class="pname">Okiri Mobile</span>
-              <span class="ptag">React Native • VoIP</span>
-            </button>
+        <div class="project-grid">
+          <article class="project-card glass project-card-featured reveal" style="--d:.04s">
+            <div class="project-top">
+              <span class="project-type">Mobile App</span>
+              <h3>Okiri Mobile</h3>
+              <p>Cross-platform app with real-time calling.</p>
+            </div>
+            <ul>
+              <li>Calling flows and in-call controls.</li>
+              <li>Native call handling and store release support.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://okirimobile.com" target="_blank" rel="noopener">View Website</a>
+              <a class="btn btn-small btn-outline" href="https://apps.apple.com/ng/app/okiri-mobile/id6760467395" target="_blank" rel="noopener">App Store</a>
+              <a class="btn btn-small btn-outline" href="https://galaxystore.samsung.com/detail/com.okirimobile.app" target="_blank" rel="noopener">Galaxy Store</a>
+            </div>
+          </article>
 
-            <button class="project-item" type="button" data-project="mastaskillz">
-              <span class="pname">Mastaskillz</span>
-              <span class="ptag">Frontend • Admin</span>
-            </button>
+          <article class="project-card glass reveal" style="--d:.08s">
+            <div class="project-top">
+              <span class="project-type">Web Platform</span>
+              <h3>Mastaskillz</h3>
+              <p>Frontend work across auth, jobs, and dashboards.</p>
+            </div>
+            <ul>
+              <li>Authentication and onboarding flows.</li>
+              <li>Jobs, search, and admin features.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://mastaskillz.com/" target="_blank" rel="noopener">View Website</a>
+            </div>
+          </article>
 
-            <button class="project-item" type="button" data-project="yorkshire">
-              <span class="pname">Yorkshire Global</span>
-              <span class="ptag">Next.js • i18n</span>
-            </button>
+          <article class="project-card glass reveal" style="--d:.12s">
+            <div class="project-top">
+              <span class="project-type">NGO Website</span>
+              <h3>The Guardians' Keeper</h3>
+              <p>NGO website for mission, support, and resources.</p>
+            </div>
+            <ul>
+              <li>Contact flow and media resources.</li>
+              <li>Responsive public-facing pages.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://theguardianskeeper.com/" target="_blank" rel="noopener">View Website</a>
+            </div>
+          </article>
 
-            <button class="project-item" type="button" data-project="jak">
-              <span class="pname">JAK Technologies</span>
-              <span class="ptag">Marketing • SEO</span>
-            </button>
+          <article class="project-card glass reveal" style="--d:.16s">
+            <div class="project-top">
+              <span class="project-type">Corporate Website</span>
+              <h3>Yorkshire Global Consulting</h3>
+              <p>Multilingual corporate website.</p>
+            </div>
+            <ul>
+              <li>Structured pages and multilingual routing.</li>
+              <li>Contact form and SEO setup.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://yorkshireglobal.ca/" target="_blank" rel="noopener">View Website</a>
+            </div>
+          </article>
 
-            <button class="project-item" type="button" data-project="willeder">
-              <span class="pname">Willeder</span>
-              <span class="ptag">Next.js • Blog</span>
-            </button>
+          <article class="project-card glass reveal" style="--d:.24s">
+            <div class="project-top">
+              <span class="project-type">Blog Platform</span>
+              <h3>Willeder</h3>
+              <p>Blog and marketing site.</p>
+            </div>
+            <ul>
+              <li>Search, tags, and responsive layouts.</li>
+              <li>Contact form email delivery.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://willeder-eta.vercel.app" target="_blank" rel="noopener">Live</a>
+              <a class="btn btn-small btn-outline" href="https://github.com/tboywixxy/Willeder" target="_blank" rel="noopener">Repo</a>
+            </div>
+          </article>
 
-            <button class="project-item" type="button" data-project="recipe">
-              <span class="pname">Recipe Mobile App</span>
-              <span class="ptag">Expo • TypeScript</span>
-            </button>
-
-            <button class="project-item" type="button" data-project="jamub">
-              <span class="pname">Jamub Group</span>
-              <span class="ptag">Website</span>
-            </button>
-          </aside>
-
-          <!-- Right: Project details -->
-          <div class="project-detail" aria-live="polite"></div>
+          <article class="project-card glass reveal" style="--d:.28s">
+            <div class="project-top">
+              <span class="project-type">Mobile App</span>
+              <h3>Recipe Mobile App</h3>
+              <p>Recipe app with search, favorites, and APK build.</p>
+            </div>
+            <ul>
+              <li>Recipe search and detail screens.</li>
+              <li>EAS build and update setup.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://expo.dev/accounts/anthony11/projects/mobile/builds/ed68892b-7ff3-4a70-9a14-e5dbbf543874" target="_blank" rel="noopener">APK</a>
+              <a class="btn btn-small btn-outline" href="https://github.com/tboywixxy/" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== CONTACT ===== -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head reveal" style="--d:0s">
+          <p class="kicker">Technical strengths</p>
+          <h2 class="title lg">Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass reveal" style="--d:.04s">
+            <h3>Frontend</h3>
+            <p>React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML, CSS</p>
+          </article>
+          <article class="skill-card glass reveal" style="--d:.08s">
+            <h3>Mobile</h3>
+            <p>React Native, Flutter, Expo, mobile UI flows, app release support</p>
+          </article>
+          <article class="skill-card glass reveal" style="--d:.12s">
+            <h3>Backend and Tools</h3>
+            <p>Node.js, REST APIs, Supabase, Firebase, Nodemailer, JSON Server, Git</p>
+          </article>
+          <article class="skill-card glass reveal" style="--d:.16s">
+            <h3>Product Delivery</h3>
+            <p>Responsive design, accessibility, performance debugging, deployment, teamwork</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-panel glass reveal" style="--d:0s">
+          <div>
+            <p class="kicker">About me</p>
+            <h2 class="title lg">I build simple, usable interfaces.</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              I work across web platforms, mobile apps, dashboards, and product websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="section alt">
       <div class="container">
         <div class="section-head reveal" style="--d:0s">
           <p class="kicker">Get in touch</p>
-          <h2 class="title lg">Contact Me</h2>
+          <h2 class="title lg">Contact</h2>
         </div>
 
         <div class="contact-cards">
-          <a class="contact-card glass reveal" style="--d:.05s"
-             href="mailto:tboywixxy1@gmail.com">
+          <a class="contact-card glass reveal" style="--d:.04s" href="mailto:obodeanthony6@gmail.com">
             <svg class="icon-24" aria-hidden="true"><use href="#icon-email"></use></svg>
             <div>
               <h4>Email</h4>
-              <p>tboywixxy1@gmail.com</p>
+              <p>obodeanthony6@gmail.com</p>
             </div>
-
           </a>
 
-          <a class="contact-card glass reveal" style="--d:.05s"
-             >
-            <svg class="icon-24" aria-hidden="true"><use href="#icon-telephone"></use></svg>
+          <a class="contact-card glass reveal" style="--d:.08s" href="tel:+2348132263197">
+            <svg class="icon-24" aria-hidden="true"><use href="#icon-phone"></use></svg>
             <div>
-              <h4>Phone Number</h4>
-              <p>+234 8132263197</p>
+              <h4>Phone</h4>
+              <p>+234 813 226 3197</p>
             </div>
-
           </a>
 
-          <a class="contact-card glass reveal" style="--d:.1s"
-             href="https://www.linkedin.com/in/anthony-obode-6098591aa/"
-             target="_blank" rel="noopener">
+          <a class="contact-card glass reveal" style="--d:.12s" href="https://www.linkedin.com/in/anthony-obode-6098591aa/" target="_blank" rel="noopener">
             <svg class="icon-24" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
             <div>
               <h4>LinkedIn</h4>
               <p>/anthony-obode-6098591aa</p>
             </div>
           </a>
+
+          <a class="contact-card glass reveal" style="--d:.16s" href="https://github.com/tboywixxy" target="_blank" rel="noopener">
+            <svg class="icon-24" aria-hidden="true"><use href="#icon-github"></use></svg>
+            <div>
+              <h4>GitHub</h4>
+              <p>/tboywixxy</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
     <footer class="footer">
       <div class="container footer-inner">
         <ul class="footer-links">
-          <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <p class="copy">© 2026 Anthony Obode. All rights reserved.</p>
+        <p class="copy">&copy; 2026 Anthony Obode. All rights reserved.</p>
       </div>
     </footer>
 
